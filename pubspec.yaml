@@ -1,0 +1,50 @@
+name: spotify_redesing_app
+description: "spotify redesing ui"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  responsive_framework: ^1.4.0
+  localization: ^2.1.1
+  flutter_bloc: ^8.1.6
+  hydrated_bloc: ^9.1.5
+  path_provider: ^2.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.3.0
+  flutter_lints: ^4.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+    - res/images/
+    - res/svg/
+    - res/svg/
+    - res/fonts/
+    - res/i18n/
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: res/fonts/Satoshi-Light.ttf
+          weight: 300
+        - asset: res/fonts/Satoshi-Regular.ttf
+          weight: 400
+        - asset: res/fonts/Satoshi-Medium.ttf
+          weight: 500
+        - asset: res/fonts/Satoshi-Bold.ttf
+          weight: 600
+        - asset: res/fonts/Satoshi-Black.ttf
+          weight: 900

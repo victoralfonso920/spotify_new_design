@@ -1,0 +1,10 @@
+{
+  "appTitle": "Spotify App",
+  "copy_intro_title": "Disfruta escuchando música",
+  "copy_intro_message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.",
+  "copy_label_started_btn":"Empezar",
+  "copy_label_continue_btn":"Continuar",
+  "copy_label_dark_mode":"Modo oscuro",
+  "copy_label_choose_mode":"Elige el modo",
+  "copy_label_light_mode":"Modo claro"
+}
